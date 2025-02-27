@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.f4730e6f.css",
-    "main.js": "/static/js/main.b959451c.js",
-    "static/js/787.c4e7f8f9.chunk.js": "/static/js/787.c4e7f8f9.chunk.js",
-    "index.html": "/index.html",
-    "main.f4730e6f.css.map": "/static/css/main.f4730e6f.css.map",
-    "main.b959451c.js.map": "/static/js/main.b959451c.js.map",
-    "787.c4e7f8f9.chunk.js.map": "/static/js/787.c4e7f8f9.chunk.js.map"
+    "main.css": "/irctc-client/static/css/main.f4730e6f.css",
+    "main.js": "/irctc-client/static/js/main.98c3320c.js",
+    "static/js/787.c4e7f8f9.chunk.js": "/irctc-client/static/js/787.c4e7f8f9.chunk.js",
+    "index.html": "/irctc-client/index.html",
+    "main.f4730e6f.css.map": "/irctc-client/static/css/main.f4730e6f.css.map",
+    "main.98c3320c.js.map": "/irctc-client/static/js/main.98c3320c.js.map",
+    "787.c4e7f8f9.chunk.js.map": "/irctc-client/static/js/787.c4e7f8f9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f4730e6f.css",
-    "static/js/main.b959451c.js"
+    "static/js/main.98c3320c.js"
   ]
 }
