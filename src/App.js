@@ -19,7 +19,7 @@ function App() {
 
   return (
     <div className="App">
-      <HashRouter basename='/irctc-client'>
+      <HashRouter basename='/'>
         <NavBar/>
         <Routes>
           <Route path='/' element={<Home />} />
