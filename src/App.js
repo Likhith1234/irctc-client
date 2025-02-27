@@ -19,10 +19,10 @@ function App() {
 
   return (
     <div className="App">
-      <HashRouter basename='/irctc'>
+      <HashRouter>
         <NavBar/>
         <Routes>
-          <Route path='/irctc' element={<Home />} />
+          <Route path='/' element={<Home />} />
           <Route path='/signUp' element={<SignUp />} />
           <Route path='/help' element={<Help />} />
           <Route path='/trains' element={  <Trains /> } />
