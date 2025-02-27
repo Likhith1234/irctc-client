@@ -82,7 +82,7 @@ export default function Trains() {
             return (
                 <div key={index} className='tile'>
                     <div className='train-image'>
-                        <img src='/assets/train.svg' alt='Train' />
+                        <img src={`${process.env.PUBLIC_URL}/assets/train.svg`} alt='Train' />
                     </div>
                     <div className='train-details'>
                         <h5>{train_name}</h5>

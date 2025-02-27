@@ -22,7 +22,7 @@ const NavBar = () => {
     return (
       <header>
         <div>
-            <img src="/assets/train.svg" width={40} height={40} style={{paddingLeft:"1em"}} alt="Train"/>
+            <img src={`${process.env.PUBLIC_URL}/assets/train.svg`} width={40} height={40} style={{paddingLeft:"1em"}} alt="Train"/>
         </div>
         <nav>
           <ul>

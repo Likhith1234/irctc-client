@@ -20,7 +20,7 @@ export default function Bookings() {
             return <div key={index} className='box'>
                 <div className='short-details'>
                     <div className='train-image'>
-                        <img src='assests/train.svg' alt='Train' />
+                        <img src={`${process.env.PUBLIC_URL}/assets/train.svg`} alt='Train' />
                     </div>
                     <div className='booking-details'>
                         <p><b>Train Name: </b>{train_name}</p>

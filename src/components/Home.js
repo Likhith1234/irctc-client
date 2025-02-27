@@ -67,7 +67,7 @@ const Home = () => {
             </div>
         </div>
         <div className='image'>
-            <img src='/assets/train.svg' alt='Irctc Train'/>
+            <img src={`${process.env.PUBLIC_URL}/assets/train.svg`} alt='Irctc Train'/>
         </div>
       </div>
     )
