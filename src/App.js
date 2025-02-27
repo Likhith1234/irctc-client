@@ -19,7 +19,7 @@ function App() {
 
   return (
     <div className="App">
-      <BrowserRouter basename='/'>
+      <BrowserRouter basename='/irctc-client'>
         <NavBar/>
         <Routes>
           <Route path='/' element={<Home />} />
