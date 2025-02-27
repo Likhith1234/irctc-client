@@ -1,5 +1,6 @@
 import React, {useEffect, useState} from 'react';
 import "../styles/Trains.css";
+import AdSenseAd from './AdSenseAd';
 
 export default function Trains() {
     const [trains, setTrains] = useState([]);
@@ -102,6 +103,7 @@ export default function Trains() {
 
   return (
     <div className='container tiles'>
+        <AdSenseAd />
         {trains.length !== 0 ? displayTrains() : null}
         {bookingPhase ? bookingWindow() : null}
     </div>
