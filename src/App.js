@@ -1,5 +1,5 @@
 import './App.css';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { HashRouter, Routes, Route } from 'react-router-dom';
 import NavBar from "./components/NavBar";
 import Home from './components/Home';
 import SignUp from './components/SignUp';
@@ -19,17 +19,17 @@ function App() {
 
   return (
     <div className="App">
-      <BrowserRouter basename='/irctc-client'>
+      <HashRouter basename='/irctc-client'>
         <NavBar/>
         <Routes>
-          <Route path='/irctc-client' element={<Home />} />
+          <Route path='/' element={<Home />} />
           <Route path='/signUp' element={<SignUp />} />
           <Route path='/help' element={<Help />} />
           <Route path='/trains' element={  <Trains /> } />
           <Route path='/trains/bookings' element={ isAuthenticated ? <Bookings /> : <Home />} />
           <Route path='*' element={<NoPage />} />
         </Routes>
-      </BrowserRouter>
+      </HashRouter>
     </div>
   );
 }
