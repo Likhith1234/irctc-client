@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/irctc-client/static/css/main.f4730e6f.css",
-    "main.js": "/irctc-client/static/js/main.1299ee50.js",
+    "main.js": "/irctc-client/static/js/main.ec561f63.js",
     "static/js/787.c4e7f8f9.chunk.js": "/irctc-client/static/js/787.c4e7f8f9.chunk.js",
     "index.html": "/irctc-client/index.html",
     "main.f4730e6f.css.map": "/irctc-client/static/css/main.f4730e6f.css.map",
-    "main.1299ee50.js.map": "/irctc-client/static/js/main.1299ee50.js.map",
+    "main.ec561f63.js.map": "/irctc-client/static/js/main.ec561f63.js.map",
     "787.c4e7f8f9.chunk.js.map": "/irctc-client/static/js/787.c4e7f8f9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f4730e6f.css",
-    "static/js/main.1299ee50.js"
+    "static/js/main.ec561f63.js"
   ]
 }
