@@ -106,6 +106,7 @@ export default function Trains() {
         <AdSenseAd />
         {trains.length !== 0 ? displayTrains() : null}
         {bookingPhase ? bookingWindow() : null}
+        <AdSenseAd />
     </div>
   )
 }
