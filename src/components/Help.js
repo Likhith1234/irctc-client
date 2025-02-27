@@ -1,9 +1,13 @@
 import React, { Component } from 'react'
+import AdSenseAd from './AdSenseAd'
 
 export default class Help extends Component {
   render() {
     return (
-      <div>Help</div>
+      <div>
+        Help
+        <AdSenseAd />
+      </div>
     )
   }
 }

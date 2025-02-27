@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import "../styles/Bookings.css";
+import AdSenseAd from './AdSenseAd';
 
 export default function Bookings() {
     const [bookings, setBookings] = useState([]);
@@ -44,8 +45,11 @@ export default function Bookings() {
     }
 
   return (
-    <div className='container boxes'>
-        {bookings.length !== 0 ? displayBookings() : null}
+    <div>
+        <AdSenseAd />
+        <div className='container boxes'>
+            {bookings.length !== 0 ? displayBookings() : null}
+        </div>
     </div>
   )
 }
